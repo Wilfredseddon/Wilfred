@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grid Example</title>
+		<link rel="stylesheet" href="layout_stylesheet.css" />
+	</head>
+    |<style>
+        .grid-container{
+            display :grid;
+            grid-template-columns: repeat(4,100px);
+            grid-template-rows: repeat(4,100px);
+            background-color: blueviolet;
+            color: azure;
+            gap:40px;
+        }
+        .grid-item{
+            background-color: blue;
+            color:aliceblue;
+            text-align: center;
+        }
+    </style>
+
+	<body>
+		<h1>Grid Example</h1>
+		<p>I just created my very first CSS Grid.</p>
+		<div class="grid-container">
+			<div class="grid-item">1</div>
+			<div class="grid-item">2</div>
+			<div class="grid-item">3</div>
+			<div class="grid-item">4</div>
+			<div class="grid-item">5</div>
+			<div class="grid-item">6</div>
+			<div class="grid-item">7</div>
+			<div class="grid-item">8</div>
+			<div class="grid-item">9</div>
+		</div>
+	</body>
+</html>

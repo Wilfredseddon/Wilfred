@@ -1,2 +1,1 @@
- Tech Talent Africa 
 Wilfred
